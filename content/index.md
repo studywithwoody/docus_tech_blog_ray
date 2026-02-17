@@ -1,29 +1,27 @@
 ---
 seo:
-  title: Write beautiful docs with Markdown
-  description: Ship fast, flexible, and SEO-optimized documentation with beautiful
-    design out of the box. Docus brings together the best of the Nuxt ecosystem.
-    Powered by Nuxt UI.
+  title: Woody's Technical Blog
+  description: Exploring the realms of AI, Web Development, and Modern Software Architecture.
 ---
 
 ::u-page-hero
 #title
-Write beautiful docs with Markdown
+Woody's Technical Blog
 
 #description
-Ship fast, flexible, and SEO-optimized documentation with beautiful design out of the box.
+Exploring the realms of AI, Web Development, and Modern Software Architecture.
 
-Docus brings the best of the Nuxt ecosystem into one CLI.
+Deep dives into modern tech stacks, architectural patterns, and emerging technologies.
 
 #links
   :::u-button
   ---
   color: neutral
   size: xl
-  to: /getting-started/installation
+  to: /blogs/web_dev
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  Explore Web Dev
   :::
 
   :::u-button
@@ -31,93 +29,63 @@ Docus brings the best of the Nuxt ecosystem into one CLI.
   color: neutral
   icon: simple-icons-github
   size: xl
-  to: https://github.com/nuxt-content/docus
+  to: https://github.com/woody1234567
   variant: outline
   ---
-  Star on GitHub
+  Follow on GitHub
   :::
 ::
 
 ::u-page-section
 #title
-Shipped with many features
+Main Categories
 
 #features
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com
+  icon: i-lucide-globe
+  to: /blogs/web_dev
   ---
   #title
-  Built with [Nuxt 4]{.text-primary}
-  
+  Web Development
+
   #description
-  Optimized by the most famous Vue framework. Docus gives you everything you need to build fast, performant, and SEO-friendly websites.
+  In-depth guides on SSE, RESTful APIs, JWT Authentication, and Web Performance. Mastering the core of modern web applications.
+  :::
+
+  :::u-page-feature
+  ---
+  icon: i-lucide-bot
+  to: /blogs/ai
+  ---
+  #title
+  Artificial Intelligence
+
+  #description
+  Exploring Model Context Protocol (MCP), LLM integration, and practical AI applications in developer workflows.
   :::
 
   :::u-page-feature
   ---
   icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/
+  to: /blogs/nuxt
   ---
   #title
-  Powered by [Nuxt UI]{.text-primary}
-  
+  Nuxt & Nitro
+
   #description
-  Beautiful out of the box, minimal by design but highly customizable. Docus leverages Nuxt UI to give you the best docs writing experience with zero boilerplate, just focus on your content.
+  Advanced Nuxt patterns, directory structures, and the Nitro engine. Building high-performance Vue applications with ease.
   :::
 
   :::u-page-feature
   ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com
+  icon: i-lucide-scroll
+  to: /blogs/python
   ---
   #title
-  Enhanced Markdown syntax by [Nuxt Content]{.text-primary}
-  
-  #description
-  The only thing you need to take care about is writing your content. Write your pages in Markdown and extend with MDC syntax to embed Nuxt UI or custom Vue components. Structure, routing, and rendering are handled for you.
-  :::
+  Python & Modern Tools
 
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://nuxt.com/docs/guide/directory-structure/app-config
-  ---
-  #title
-  Customize with [Nuxt App Config]{.text-primary}
-  
   #description
-  Update colors, social links, header logos and component styles globally using the `app.config.ts`, no direct code modifications required.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://content.nuxt.com/studio
-  ---
-  #title
-  Edit in production with [Nuxt Studio]{.text-primary}
-  
-  #description
-  Edit your content in production with zero Markdown knowledge required. Let your non technical colleagues collaborate on the documentation and integrate Vue components without code skills.
-  :::
-
-  :::u-page-feature
-  ---
-  icon: i-simple-icons-nuxt
-  target: _blank
-  to: https://ui.nuxt.com/components/content-search
-  ---
-  #title
-  Built-in navigation and [full-text search]{.text-primary}
-  
-  #description
-  Only focus on ordering your content, Docus handles the search modal and auto-generates the side navigation for you.
+  Streamlining Python development with `uv`, managing memory buffers, and writing efficient backend logic.
   :::
 ::

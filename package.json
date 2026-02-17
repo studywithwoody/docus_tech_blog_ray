@@ -1,5 +1,5 @@
 {
-  "name": "docus_tech_blog",
+  "name": "woody's tech blog",
   "scripts": {
     "dev": "nuxt dev --extends docus",
     "build": "nuxt build --extends docus"
