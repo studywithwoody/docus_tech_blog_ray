@@ -96,7 +96,7 @@ uvicorn main:app --reload
 
 接著打開瀏覽器，測試不同參數組合，例如：
 
-```
+```bash
 http://127.0.0.1:8000/sin
 http://127.0.0.1:8000/sin?amplitude=2
 http://127.0.0.1:8000/sin?amplitude=0.5&frequency=3
