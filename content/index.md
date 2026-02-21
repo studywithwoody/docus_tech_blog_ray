@@ -18,7 +18,7 @@ Deep dives into modern tech stacks, architectural patterns, and emerging technol
   ---
   color: neutral
   size: xl
-  to: /blogs/web_dev
+  to: /web_dev
   trailing-icon: i-lucide-arrow-right
   ---
   Explore Web Dev
@@ -44,7 +44,7 @@ Main Categories
   :::u-page-feature
   ---
   icon: i-lucide-globe
-  to: /blogs/web_dev
+  to: /web_dev
   ---
   #title
   Web Development
@@ -56,7 +56,7 @@ Main Categories
   :::u-page-feature
   ---
   icon: i-lucide-bot
-  to: /blogs/ai
+  to: /ai
   ---
   #title
   Artificial Intelligence
@@ -68,7 +68,7 @@ Main Categories
   :::u-page-feature
   ---
   icon: i-simple-icons-nuxt
-  to: /blogs/nuxt
+  to: /nuxt
   ---
   #title
   Nuxt & Nitro
@@ -80,7 +80,7 @@ Main Categories
   :::u-page-feature
   ---
   icon: i-lucide-scroll
-  to: /blogs/python
+  to: /python
   ---
   #title
   Python & Modern Tools
